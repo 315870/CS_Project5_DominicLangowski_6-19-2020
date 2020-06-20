@@ -1,0 +1,32 @@
+﻿    <!-- Computer Science Mathematics Practise
+            Dominic Langowski 6/19/2020
+            Mr. McTavish-->
+    <Window 
+    x:Class="Interger_Practise.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Interger_Practise"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Background="BlanchedAlmond">
+    <ScrollViewer>
+        <StackPanel>
+            <Label x:Name="lblTitle" Content="Mathematic's Practise" FontSize="25"/>
+            <Label/>
+            <Label/>
+            <Label/>
+            <Label x:Name="lblEquation" FontSize="17"></Label>
+            <Label/>
+            <TextBox x:Name="txtInput" FontSize="16"></TextBox>
+            <Label/>
+            <Button x:Name="btnCheck" Content="Check" Click="BtnCheck_Click" FontSize="15"/>
+            <Label/>
+            <Label/>
+            <Label/>
+            <Label/>
+            <Label x:Name="lblCheckedAnswer" FontSize="17"></Label>
+
+        </StackPanel>
+    </ScrollViewer>
+</Window>
